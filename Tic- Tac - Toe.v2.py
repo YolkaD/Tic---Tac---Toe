@@ -4,7 +4,7 @@ import random
 empty_symbol = ' '
 x_y =[]
 
-a = []
+
 def board_of_play(size):
     board_line = [empty_symbol for i in range(size)]
     board = [board_line.copy() for i in range(size)]
